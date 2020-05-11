@@ -14,7 +14,7 @@ Cenário: Busca de cursos por matéria quantidade de cursos disponiveis
     Quando busco por "Matemática"
     E visualizo a tela de detalhes
     Então valido a quantidade de cursos exibidas
-@x
+
 Cenário: Busca de cursos por região - São Paulo
     Dado que estou na pagina inicial 
     E utilizo a busca "POR REGIÃO"
