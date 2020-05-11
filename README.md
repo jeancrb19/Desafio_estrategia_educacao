@@ -1,5 +1,5 @@
 # Challenger Estratégia e educação
-This project contain three automated tests, three bugs in ```(features/bugs/)``` and a lot of test cases in ```(features/casos.txt)```
+This project contain three automated tests, three ticket bugs in ```(features/bugs/)``` and a lot of test cases in ```(features/casos.txt)```
 
   - Clone this project
   - Execute the command ``` bundle install``` (install all of dependencies to run the project)
