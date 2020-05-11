@@ -1,0 +1,11 @@
+Titulo:  Concursos sem cursos sendo exbidos na listagem da busca
+
+Cenário: Busca de cursos por matéria quantidade de cursos disponiveis 
+    Dado que estou na pagina inicial 
+    E utilizo a busca "POR MATÉRIA"
+    Quando busco por todas matérias
+    Então visualizo que os concursos possuem cursos disponíveis
+
+Através do cenário acima foi constatado que algumas matérias e professores mostram alguns cursos como zerado, alguns professores com apenas 1 curso, mostram a quantidade no plural (1 Cursos disponíveis)
+Em anexo os prints Bug_2_Anexo_1 
+

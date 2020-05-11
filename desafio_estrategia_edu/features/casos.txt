@@ -1,0 +1,73 @@
+Cenário: Busca de cursos por professor Ordem
+    Dado que estou na pagina inicial 
+    E utilizo a busca "Por Professor"
+    Quando busco por "Todos os Professores"
+    Então valido que os professores são exibidos por ordem alfabetica
+
+Cenário: Busca de cursos por professor inexistente
+    Dado que estou na pagina inicial 
+    E utilizo a busca "Por Professor"
+    Quando busco por "Professor Fantasma"
+    Então valido que não existe um  professor com o nome informado
+
+Cenário: Busca de cursos por professor - Quantidade existente
+    Dado que estou na pagina inicial 
+    E utilizo a busca "Por Professor"
+    Quando busco por "Abraão Pereira"
+    Então valido que a quantidade de cursos na listagem é igual na tela de detalhes
+
+Cenário: Busca de cursos por professor - Parcelamento
+    Dado que estou na pagina inicial 
+    E utilizo a busca "Por Professor"
+    Quando busco por "Abraão Pereira"
+    E acesso a tela de detalhes do cursos
+    Então visualizo o os valores corretos de cada opcao de parcelamento
+
+Cenário: Busca de cursos por Matérias Ordem
+    Dado que estou na pagina inicial 
+    E utilizo a busca "Por Matérias"
+    Quando busco por "Todas as matérias"
+    Então valido que as matérias são exibidas por ordem alfabetica
+
+Cenário: Busca de cursos por Matéria inexistente
+    Dado que estou na pagina inicial 
+    E utilizo a busca "Por Matérias"
+    Quando busco por "Materia Fnatasma"
+    Então valido que não existe um  professor com o nome informado
+
+Cenário: Busca de cursos por Matéria - Quantidade existente
+    Dado que estou na pagina inicial 
+    E utilizo a busca "Por Matérias"
+    Quando busco por "Abraão Pereira"
+    Então valido que a quantidade de cursos na listagem é igual na tela de detalhes
+
+Cenário: Busca de cursos por Matéria - Desconto boleto
+    Dado que estou na pagina inicial 
+    E utilizo a busca "Por Matérias"
+    Quando busco por "Direito do consumidor"
+    E acesso a tela de detalhes do cursos
+    Então visualizo o desconto referente a boleto no total  á pagar
+
+Cenário: Busca por cursos Mais vendidos
+    Dado que estou na pagina inicial
+    Quando busco por "Mais vendidos"
+    E acesso a tela de detalhes do cursos
+    Então visualizo os cursos "mais vendidos"
+
+Cenário: Busca por cursos com edital publicado
+    Dado que estou na pagina inicial
+    Quando busco por "Edital publicado"
+    E acesso a tela de detalhes do cursos
+    Então visualizo os cursos "Edital publicado"
+
+Cenário: Busca por cursos com edital em breve
+    Dado que estou na pagina inicial
+    Quando busco por "Edital em breve"
+    E acesso a tela de detalhes do cursos
+    Então visualizo os cursos "Edital em breve"
+
+Cenário: Busca por cursos para preparação de longo prazo
+    Dado que estou na pagina inicial
+    Quando busco por "Preparação de longo prazo"
+    E acesso a tela de detalhes do cursos
+    Então visualizo os cursos "Preparação de longo prazo"

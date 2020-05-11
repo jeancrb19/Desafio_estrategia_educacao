@@ -1,0 +1,11 @@
+Titulo: Divergência na quantidade de cursos mostrado na listagem e nos detalhes 
+
+Cenário: Busca de cursos por matéria quantidade de cursos disponiveis 
+    Dado que estou na pagina inicial 
+    E utilizo a busca "POR MATÉRIA"
+    Quando busco por "Matemática"
+    E visualizo a tela de detalhes
+    Então valido a quantidade de cursos exibidas
+
+Através do cenário acima foi constatado que algumas matérias e professores mostram a quantidade de cursos diferentes na listagem e no detalhe.
+Em anexo os prints Bug_1_Anexo_1 e Bug_1_Anexo_2

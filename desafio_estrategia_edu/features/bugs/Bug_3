@@ -1,0 +1,10 @@
+Titulo: Assinatura de 2 anos com titulo no singular 
+
+Cenário validação de assinaturas
+Dado que estou na tela inicial
+Quando clico em Assinaturas
+Então visualizo as opcoes de assinaturas mostradas
+
+Através do cenário acima foi constatado que na tela de assinatura a assinatura de 2 anos consta com o nome no singular (2 ano)
+Em anexo Bug_3_Anexo_1 consta a imagem do erro.
+
